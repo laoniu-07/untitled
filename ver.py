@@ -42,7 +42,7 @@ class Word():
         for entity  in list(self.entitys.values()):
             entity.render(screen)
     def process(self):
-        time_pass=
+
         for i in self.entitys:
             i.process()
 class GameEntity():
