@@ -43,6 +43,7 @@ class Word():
             entity.render(screen)
     def process(self):
 
+
         for i in self.entitys:
             i.process()
 class GameEntity():
