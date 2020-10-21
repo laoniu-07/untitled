@@ -7,6 +7,7 @@ from sys import exit
 from pygame.math import Vector2
 from math import *
 print('222')
+print('333')
 pygame.init()
 pygame.mixer.init()
 pygame.mixer.music.load('lilanmama.mp3')
