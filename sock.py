@@ -59,7 +59,7 @@ while True:
     # 多了一个鼠标右键按下的判断
     if pressed_keys[K_DOWN] or pressed_mouse[2]:
         movement_direction = -1.
-
+    print('333')
     screen.blit(background, (0, 0))
 
     rotated_sprite = pygame.transform.rotate(sprite, sprite_rotation)
