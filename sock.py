@@ -61,6 +61,7 @@ while True:
         movement_direction = -1.
     print('333')
     print ('444')
+    print ('55')
     screen.blit(background, (0, 0))
 
     rotated_sprite = pygame.transform.rotate(sprite, sprite_rotation)
